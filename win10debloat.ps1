@@ -26,7 +26,7 @@
 #
 #	My Additions:
 #
-#	- first install needed programs (telegram, spotify, VScode, PIA, QBitTorrent, python, PowerToys, mremoteng, vkmessenger, filezilla)
+#	- first install needed programs (telegram, spotify, VScode, PIA, QBitTorrent, python, PowerToys, mremoteng, vkmessenger, filezilla, totalcommander)
 #
 ##########
 # Default preset
@@ -51,6 +51,7 @@ $tweaks = @(
 	"Installmremoteng",
 	"Installvkmessenger",
 	"Installfilezilla",
+	"Installtotalcommander",
 
 	### Windows Apps
 	"DebloatAll",
@@ -300,6 +301,11 @@ Function Installvkmessenger {
 Function Installfilezilla {
 	Write-Output "Installing filezilla"
 	choco install filezilla -y
+}
+
+Function Installtotalcommander {
+	Write-Output "Installing totalcommander"
+	choco install totalcommander -y
 }
 
 ##########

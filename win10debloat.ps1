@@ -35,14 +35,14 @@ $tweaks = @(
 	"RequireAdmin",
 
 	### External Program Setup
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
+	# "InstallAdobe",
+	# "Install7Zip",
+	# "InstallNotepadplusplus",
+	# "InstallMediaPlayerClassic",
 	### NEW
-	"InstallTelegram",
-	"InstallSpotify",
+	# "InstallTelegram",
+	# "InstallSpotify",
 	"InstallVScode",
 	"InstallPIA",
 	"InstallQBitTorrent",
